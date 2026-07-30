@@ -1,16 +1,31 @@
-## Hi there 👋
+# Hi there, I'm Lorenzo Dati 👋
 
-<!--
-**Loredati-svg/Loredati-svg** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I am a 26-year-old **Analog IC Designer** specializing in **CMOS Image Sensors**. I hold a Master's degree in **Electronic Engineering for Intelligent Vehicles** from **MUNER** (Motorvehicle University of Emilia-Romagna), with a strong passion for **custom PCB design** and open-source hardware engineering.
+---
 
-Here are some ideas to get you started:
+### 🔬 About Me
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🎓 **Education:** M.Sc. in Electronic Engineering for Intelligent Vehicles @ **MUNER**
+- 💼 **Role:** Analog IC Designer (Image Sensors Industry)
+- 📍 **Location:** Tuscany, Italy
+- 🛠️ **Focus:** CMOS Analog/Mixed-Signal ICs and Custom PCBs
+
+---
+
+### 🛠️ Hardware & Tools Stack
+
+**Analog & IC Design:**
+`S-edit/L-edit (Siemens Tools)`
+
+**PCB Design & Hardware:**
+`KiCad 9` • `Altium Designer`
+
+---
+
+### 🚀 Featured Projects
+
+- 🔊 **[Class-D Bluetooth 5.0 Stereo Audio Amplifier](https://github.com/Loredati-svg/Class-D-Bluetooth-5.0-Stereo-Audio-Amplifier)** — An open-source Class-D audio amplifier featuring integrated Bluetooth 5.0 HD, power management, and modular schematic sheets.
+- 
+---
+
+📫 **Connect with me:** [LinkedIn](https://linkedin.com/in/lorenzodati00)
