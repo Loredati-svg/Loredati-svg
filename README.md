@@ -1,6 +1,7 @@
 # Hi there, I'm Lorenzo Dati 👋
 
-I am a 26-year-old **Analog IC Designer** specializing in **CMOS Image Sensors**. I hold a Master's degree in **Electronic Engineering for Intelligent Vehicles** from **MUNER** (Motorvehicle University of Emilia-Romagna), with a strong passion for **custom PCB design** and open-source hardware engineering.
+I am a 26-year-old **Analog IC Designer** specializing in **CMOS Image Sensors**.
+I hold a Master's degree in **Electronic Engineering for Intelligent Vehicles** from **MUNER** (Motorvehicle University of Emilia-Romagna).
 ---
 
 ### 🔬 About Me
