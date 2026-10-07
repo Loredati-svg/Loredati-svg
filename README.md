@@ -51,6 +51,11 @@ Open-source hardware projects: custom PCBs, analog circuits and board-level desi
 - Integrated Bluetooth 5.0 HD module, low-noise power supply, and protection circuitry.
 - Created fully modular schematics with dedicated custom footprint and symbol libraries.
 
+🔹 **[LoRa USB Dongle](https://github.com/Loredati-svg/LoRa-USB-Dongle)** *(work in progress)*
+- USB-C LoRa dongle for the 868 MHz band, designed in KiCad 10: plugs into a PC as a serial port, with SMA antenna connector.
+- Built around the STM32WLE5 sub-GHz SoC, CP2102N USB-UART bridge and AP2112K 3.3 V LDO, with USB ESD protection and polyfuse.
+- RF front-end based on ST's STDES-WL5U2ILH reference design (BALF IPD + RF switch); schematic complete and ERC clean, PCB layout in progress.
+
 ---
 
 ### 🎓 Education
