@@ -46,7 +46,7 @@ Open-source hardware projects: custom PCBs, analog circuits and board-level desi
 
 ### 🏆 Key Projects
 
-🔹 **[Class-D Bluetooth 5.0 Stereo Audio Amplifier](https://github.com/Loredati-svg/Class-D-Bluetooth-5.0-Stereo-Audio-Amplifier)**
+🔹 **[Class-D Stereo Audio Amplifier](https://github.com/Loredati-svg/Class-D-Audio-Amplifier)**
 - Designed a complete open-source Class-D stereo audio amplifier using KiCad 9.
 - Integrated Bluetooth 5.0 HD module, low-noise power supply, and protection circuitry.
 - Created fully modular schematics with dedicated custom footprint and symbol libraries.
