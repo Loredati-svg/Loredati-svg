@@ -47,9 +47,11 @@ Open-source hardware projects: custom PCBs, analog circuits and board-level desi
 ### 🏆 Key Projects
 
 🔹 **[Class-D Stereo Audio Amplifier](https://github.com/Loredati-svg/Class-D-Audio-Amplifier)**
-- Designed a complete open-source Class-D stereo audio amplifier using KiCad 9.
-- Integrated Bluetooth 5.0 HD module, low-noise power supply, and protection circuitry.
-- Created fully modular schematics with dedicated custom footprint and symbol libraries.
+- Designing an open-source stereo Class-D amplifier (TI TPA3116D2, 2 × 40 W) in KiCad 10.
+- USB-C digital input via a driverless USB Audio DAC (PCM2704C), with ESD protection.
+- Active Baxandall bass/treble tone control (OPA1678) and logarithmic volume control, tuned for deep bass.
+- Anti-pop sequencing (MUTE/SDZ timing), LDO analog supply, LC output filter and EMI snubbers.
+- Modular hierarchical schematics with custom symbol and footprint libraries.
 
 🔹 **[LoRa USB Dongle](https://github.com/Loredati-svg/LoRa-USB-Dongle)** *(work in progress)*
 - USB-C LoRa dongle for the 868 MHz band, designed in KiCad 10: plugs into a PC as a serial port, with SMA antenna connector.
