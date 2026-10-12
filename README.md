@@ -34,8 +34,7 @@ Open-source hardware projects: custom PCBs, analog circuits and board-level desi
 ![Siemens EDA](https://img.shields.io/badge/Siemens_S--Edit%2FL--Edit-009999?style=for-the-badge&logo=siemens&logoColor=white)
 ![Cadence Spectre](https://img.shields.io/badge/Cadence_Spectre-CC0000?style=for-the-badge&logo=cadence&logoColor=white)
 ![LTspice](https://img.shields.io/badge/LTspice-EE3124?style=for-the-badge&logo=analogdevices&logoColor=white)
-![KiCad](https://img.shields.io/badge/KiCad_9-314685?style=for-the-badge&logo=kicad&logoColor=white)
-![Altium Designer](https://img.shields.io/badge/Altium_Designer-A72C33?style=for-the-badge&logo=altiumdesigner&logoColor=white)
+![KiCad](https://img.shields.io/badge/KiCad_10-314685?style=for-the-badge&logo=kicad&logoColor=white)
 ![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
 
 **Other Tools:**  
@@ -46,12 +45,18 @@ Open-source hardware projects: custom PCBs, analog circuits and board-level desi
 
 ### 🏆 Key Projects
 
-🔹 **[Class-D Stereo Audio Amplifier](https://github.com/Loredati-svg/Class-D-Audio-Amplifier)**
+🔹 **[Class-D Stereo Audio Amplifier](https://github.com/Loredati-svg/Class-D-Audio-Amplifier)** *(design complete - not tested yet)*
 - Designing an open-source stereo Class-D amplifier (TI TPA3116D2, 2 × 40 W) in KiCad 10.
 - USB-C digital input via a driverless USB Audio DAC (PCM2704C), with ESD protection.
 - Active Baxandall bass/treble tone control (OPA1678) and logarithmic volume control, tuned for deep bass.
 - Anti-pop sequencing (MUTE/SDZ timing), LDO analog supply, LC output filter and EMI snubbers.
 - Modular hierarchical schematics with custom symbol and footprint libraries.
+
+🔹 **[Custom Keyboard – RP2040 Macropad](https://github.com/Loredati-svg/Custom_Keyboard)** *(design complete - not tested yet)*
+- 9-key mechanical macropad with two push-button rotary encoders and per-key RGB lighting, designed from scratch in KiCad 10.
+- Bare RP2040 design (no module): QSPI flash, 12 MHz crystal, AP2112K 3.3 V LDO, USB-C with USBLC6 ESD protection and polyfuse.
+- Hardware RC debouncing on the encoders; 9 reverse-mount SK6812MINI-E LEDs with a 3.3 V → 5 V level shifter on the data line.
+- 4-layer PCB with a dedicated ground plane, single-sided SMD assembly on the bottom; designed for QMK/VIA firmware.
 
 🔹 **[LoRa USB Dongle](https://github.com/Loredati-svg/LoRa-USB-Dongle)** *(work in progress)*
 - USB-C LoRa dongle for the 868 MHz band, designed in KiCad 10: plugs into a PC as a serial port, with SMA antenna connector.
