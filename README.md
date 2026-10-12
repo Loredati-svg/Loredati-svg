@@ -4,18 +4,25 @@ I'm a 26-year-old **Analog IC Designer** specializing in **CMOS Image Sensors**.
 
 ---
 
-### 🏢 Organization
+### 🏆 Key Projects
 
-<a href="https://github.com/L2-hardware">
-  <img src="https://github.com/L2-hardware.png" width="60" align="left" style="margin-right:12px" alt="L2_hardware logo"/>
-</a>
+🔹 **[Class-D Stereo Audio Amplifier](https://github.com/Loredati-svg/Class-D-Audio-Amplifier)** *(design complete - not tested yet)*
+- Designing an open-source stereo Class-D amplifier (TI TPA3116D2, 2 × 40 W) in KiCad 10.
+- USB-C digital input via a driverless USB Audio DAC (PCM2704C), with ESD protection.
+- Active Baxandall bass/treble tone control (OPA1678) and logarithmic volume control, tuned for deep bass.
+- Anti-pop sequencing (MUTE/SDZ timing), LDO analog supply, LC output filter and EMI snubbers.
+- Modular hierarchical schematics with custom symbol and footprint libraries.
 
-**[L2_hardware](https://github.com/L2-hardware)** — Founder & Owner  
-Open-source hardware projects: custom PCBs, analog circuits and board-level design.
+🔹 **[Custom Keyboard – RP2040 Macropad](https://github.com/Loredati-svg/Custom_Keyboard)** *(design complete - not tested yet)*
+- 9-key mechanical macropad with two push-button rotary encoders and per-key RGB lighting, designed from scratch in KiCad 10.
+- Bare RP2040 design (no module): QSPI flash, 12 MHz crystal, AP2112K 3.3 V LDO, USB-C with USBLC6 ESD protection and polyfuse.
+- Hardware RC debouncing on the encoders; 9 reverse-mount SK6812MINI-E LEDs with a 3.3 V → 5 V level shifter on the data line.
+- 4-layer PCB with a dedicated ground plane, single-sided SMD assembly on the bottom; designed for QMK/VIA firmware.
 
-<br clear="left"/>
-
-[![L2_hardware](https://img.shields.io/badge/GitHub-L2__hardware-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/L2-hardware)
+🔹 **[LoRa USB Dongle](https://github.com/Loredati-svg/LoRa-USB-Dongle)** *(work in progress)*
+- USB-C LoRa dongle for the 868 MHz band, designed in KiCad 10: plugs into a PC as a serial port, with SMA antenna connector.
+- Built around the STM32WLE5 sub-GHz SoC, CP2102N USB-UART bridge and AP2112K 3.3 V LDO, with USB ESD protection and polyfuse.
+- RF front-end based on ST's STDES-WL5U2ILH reference design (BALF IPD + RF switch); schematic complete and ERC clean, PCB layout in progress.
 
 ---
 
@@ -41,27 +48,19 @@ Open-source hardware projects: custom PCBs, analog circuits and board-level desi
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
----
 
-### 🏆 Key Projects
+### 🏢 Organization
 
-🔹 **[Class-D Stereo Audio Amplifier](https://github.com/Loredati-svg/Class-D-Audio-Amplifier)** *(design complete - not tested yet)*
-- Designing an open-source stereo Class-D amplifier (TI TPA3116D2, 2 × 40 W) in KiCad 10.
-- USB-C digital input via a driverless USB Audio DAC (PCM2704C), with ESD protection.
-- Active Baxandall bass/treble tone control (OPA1678) and logarithmic volume control, tuned for deep bass.
-- Anti-pop sequencing (MUTE/SDZ timing), LDO analog supply, LC output filter and EMI snubbers.
-- Modular hierarchical schematics with custom symbol and footprint libraries.
+<a href="https://github.com/L2-hardware">
+  <img src="https://github.com/L2-hardware.png" width="60" align="left" style="margin-right:12px" alt="L2_hardware logo"/>
+</a>
 
-🔹 **[Custom Keyboard – RP2040 Macropad](https://github.com/Loredati-svg/Custom_Keyboard)** *(design complete - not tested yet)*
-- 9-key mechanical macropad with two push-button rotary encoders and per-key RGB lighting, designed from scratch in KiCad 10.
-- Bare RP2040 design (no module): QSPI flash, 12 MHz crystal, AP2112K 3.3 V LDO, USB-C with USBLC6 ESD protection and polyfuse.
-- Hardware RC debouncing on the encoders; 9 reverse-mount SK6812MINI-E LEDs with a 3.3 V → 5 V level shifter on the data line.
-- 4-layer PCB with a dedicated ground plane, single-sided SMD assembly on the bottom; designed for QMK/VIA firmware.
+**[L2_hardware](https://github.com/L2-hardware)** — Founder & Owner  
+Open-source hardware projects: custom PCBs, analog circuits and board-level design.
 
-🔹 **[LoRa USB Dongle](https://github.com/Loredati-svg/LoRa-USB-Dongle)** *(work in progress)*
-- USB-C LoRa dongle for the 868 MHz band, designed in KiCad 10: plugs into a PC as a serial port, with SMA antenna connector.
-- Built around the STM32WLE5 sub-GHz SoC, CP2102N USB-UART bridge and AP2112K 3.3 V LDO, with USB ESD protection and polyfuse.
-- RF front-end based on ST's STDES-WL5U2ILH reference design (BALF IPD + RF switch); schematic complete and ERC clean, PCB layout in progress.
+<br clear="left"/>
+
+[![L2_hardware](https://img.shields.io/badge/GitHub-L2__hardware-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/L2-hardware)
 
 ---
 
