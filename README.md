@@ -6,14 +6,14 @@ I'm a 26-year-old **Analog IC Designer** specializing in **CMOS Image Sensors**.
 
 ### 🏆 Key Projects
 
-🔹 **[Class-D Stereo Audio Amplifier](https://github.com/Loredati-svg/Class-D-Audio-Amplifier)** *(design complete - not tested yet)*
+🔹 **[Class-D Stereo Audio Amplifier](https://github.com/Loredati-svg/Class-D-Audio-Amplifier)** *(design complete - In Prodcution)*
 - Designing an open-source stereo Class-D amplifier (TI TPA3116D2, 2 × 40 W) in KiCad 10.
 - USB-C digital input via a driverless USB Audio DAC (PCM2704C), with ESD protection.
 - Active Baxandall bass/treble tone control (OPA1678) and logarithmic volume control, tuned for deep bass.
 - Anti-pop sequencing (MUTE/SDZ timing), LDO analog supply, LC output filter and EMI snubbers.
 - Modular hierarchical schematics with custom symbol and footprint libraries.
 
-🔹 **[Custom Keyboard – RP2040 Macropad](https://github.com/Loredati-svg/Custom_Keyboard)** *(design complete - not tested yet)*
+🔹 **[Custom Keyboard – RP2040 Macropad](https://github.com/Loredati-svg/Custom_Keyboard)** *(design complete - In Production)*
 - 9-key mechanical macropad with two push-button rotary encoders and per-key RGB lighting, designed from scratch in KiCad 10.
 - Bare RP2040 design (no module): QSPI flash, 12 MHz crystal, AP2112K 3.3 V LDO, USB-C with USBLC6 ESD protection and polyfuse.
 - Hardware RC debouncing on the encoders; 9 reverse-mount SK6812MINI-E LEDs with a 3.3 V → 5 V level shifter on the data line.
