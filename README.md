@@ -2,10 +2,9 @@
 
 I'm a 26-year-old **Analog IC Designer** specializing in **CMOS Image Sensors**. I hold a Master's degree in **Electronic Engineering for Intelligent Vehicles** from **MUNER**. I am passionate about designing integrated analog circuits, custom high-performance PCBs, and bridging the gap between chip-level design and board-level hardware.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/lorenzodati00)
-[![Email](https://img.shields.io/badge/Email-lollodati46%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lollodati46@gmail.com)
-[![L2_hardware](https://img.shields.io/badge/GitHub-L2__hardware-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/L2-hardware)
-
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge)](https://linkedin.com/in/lorenzodati00)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lollodati46@gmail.com)
+[![L2_hardware](https://img.shields.io/badge/L2__hardware-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/L2-hardware)
 ---
 
 ### 🏆 Key Projects
