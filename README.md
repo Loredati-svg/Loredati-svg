@@ -46,10 +46,6 @@ I'm a 26-year-old **Analog IC Designer** specializing in **CMOS Image Sensors**.
 ![KiCad](https://img.shields.io/badge/KiCad_10-314685?style=for-the-badge&logo=kicad&logoColor=white)
 ![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
 
-**Other Tools:**  
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-
 
 ### 🏢 Organization
 
