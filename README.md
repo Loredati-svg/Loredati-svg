@@ -19,10 +19,12 @@ I'm a 26-year-old **Analog IC Designer** specializing in **CMOS Image Sensors**.
 - Hardware RC debouncing on the encoders; 9 reverse-mount SK6812MINI-E LEDs with a 3.3 V → 5 V level shifter on the data line.
 - 4-layer PCB with a dedicated ground plane, single-sided SMD assembly on the bottom; designed for QMK/VIA firmware.
 
-🔹 **[LoRa USB Dongle](https://github.com/Loredati-svg/LoRa-USB-Dongle)** *(work in progress)*
-- USB-C LoRa dongle for the 868 MHz band, designed in KiCad 10: plugs into a PC as a serial port, with SMA antenna connector.
-- Built around the STM32WLE5 sub-GHz SoC, CP2102N USB-UART bridge and AP2112K 3.3 V LDO, with USB ESD protection and polyfuse.
-- RF front-end based on ST's STDES-WL5U2ILH reference design (BALF IPD + RF switch); schematic complete and ERC clean, PCB layout in progress.
+🔹 **[BLDC FOC Motor Driver](https://github.com/Loredati-svg/BLDC-FOC-Motor-Driver)** *(work in progress)*
+- Single-motor BLDC/PMSM driver with sensored Field-Oriented Control, designed in KiCad 10 as the motor building block for a two-wheeled self-balancing robot.
+- STM32G431 (170 MHz, CORDIC) driving a TI DRV8323RH smart gate driver and a 3-phase inverter with 60 V MOSFETs; 3S–6S LiPo input with TVS and bulk protection.
+- 3-shunt low-side current sensing through the DRV8323 amplifiers, RC-filtered into simultaneous ADC sampling; MA730 14-bit magnetic encoder centred on the motor shaft.
+- On-chip buck (5 V) + LDO (3.3 V) with ferrite-filtered analog supply; USB-C (CDC telemetry, diode-OR logic supply, ESD + polyfuse) and Tag-Connect SWD.
+- Gate drive strength, overcurrent threshold and current-sense gain set by hardware straps; schematic complete, PCB layout in progress.
 
 ---
 
